@@ -1,0 +1,152 @@
+/* index html style */
+:root{
+    background-color: ivory;
+    font-size: 60.5%;
+  }
+  
+  /* body style */
+  *{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'Lora';
+    margin: 0;
+    padding: 0;
+    color: red;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4{
+    margin-bottom: 1rem;
+  }
+  /* h1 style */
+  h1{
+    font-size: 6rem;
+    color:blue ;
+    margin-bottom: 5rem;
+  }
+  /* h1 style */
+  h1> span {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  /* h2 style */
+  h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+  }
+  
+  h3{
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  /* container style */
+  
+  .container-pl{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto ;
+    padding: 2rem;
+  }
+  
+  /* container pl style */
+  .container-pl{
+    width: 100%;
+  }
+  .flex-center{
+    justify-content: center;
+  }
+  .text-center{
+    text-align: center;
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  /* button */
+  
+  .btn{
+    font-size: 1.8rem;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1 rem;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: white;
+  }
+  /* userName btm style */
+  #username{
+    flex-direction: column;
+   
+    font-size: 1.8rem;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-right: 5rem;
+   
+    background-color: white;
+  }
+  /* button style */
+  .btnpl{
+    flex-direction: column;
+    display: flex;
+    font-size: 1.8rem;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    background-color: white;
+  }
+  /* changing stryle from cursor to pointer */
+  .btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(235, 86, 98, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms; 
+  }
+  /* button style */
+  .btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  
+  
+  
+  /*
+    footer style
+  */
+  footer {
+    padding-bottom: 5px;
+    font-size: 15px;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+   background-color: black;
+    color: white;
+   
+    text-align: center;
+    
+  }
+  /* name and high scores style */
+  #high-scores{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+  }
+  /* styles for correct and incorrect answers */
