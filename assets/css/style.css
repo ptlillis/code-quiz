@@ -52,7 +52,7 @@
   max-width: 800px;
   margin: 0 auto ;
   padding: 2rem;
-  background-image: url(../img/____);
+  background-image: url(../img/background-1.jpeg);
 }
   
   /* container pl style */
@@ -154,9 +154,9 @@
 /* styles for correct and incorrect answers */
 .correct{
 
-  background-image: url(../img/_____);
+  background-image: url(../img/background-2.png);
 }
 
 .incorrect{
-  background-image: url(../img/____);
+  background-image: url(../img/background-3.jpg);
 }
