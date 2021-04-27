@@ -151,3 +151,12 @@
     font-weight: 700;
   }
 
+/* styles for correct and incorrect answers */
+.correct{
+
+  background-image: url(../img/_____);
+}
+
+.incorrect{
+  background-image: url(../img/____);
+}
