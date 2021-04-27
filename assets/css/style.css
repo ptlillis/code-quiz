@@ -43,16 +43,17 @@
   }
   /* container style */
   
-  .container-pl{
-    width: 100vw;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto ;
-    padding: 2rem;
-  }
+  .container-danny{
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto ;
+  padding: 2rem;
+  background-image: url(../img/____);
+}
   
   /* container pl style */
   .container-pl{
